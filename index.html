@@ -1,66 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== REMIXICONS ===============-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== SWIPER CSS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-    <title>Responsive restaurant website - Crypticalcoder</title>
-  </head>
-  <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header"></header>
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home" id="home"></section>
+  <title>restaurant website </title>
+</head>
 
-      <!--==================== ABOUT ====================-->
-      <section class="about" id="about"></section>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header"></header>
 
-      <!--==================== MENU ====================-->
-      <section class="menu" id="menu"></section>
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+      <div class="swiper home-swiper container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide home__content grid">
+            <div class="home__data">
+              <h3 class="home__subtitle">Fastest Delivery & Easy Pickup</h3>
 
-      <!--==================== SERVICES ====================-->
-      <section class="services" id="services"></section>
+              <h1 class="home__title">Kings Burguer</h1>
+              <p class="home__description">Good food starts with good ingridients. we only brings you the best.</p>
+              <a href="#menu" class="button">View Our Menu</a>
+            </div>
+            <img src="assets/img/slide-1.png" alt="slide one" class="home__img">
+          </div>
 
-      <!--==================== DEALS ====================-->
-      <section class="deals"></section>
+          <div class="swiper-slide home__content grid">
+            <div class="home__data">
+              <h3 class="home__subtitle">Fastest Delivery & Easy Pickup</h3>
 
-      <!--==================== MENU ====================-->
-      <section class="menu"></section>
+              <h1 class="home__title">Delicious Food</h1>
+              <p class="home__description">Good food starts with good ingridients. we only brings you the best.</p>
+              <a href="#menu" class="button">View Our Menu</a>
+            </div>
+            <img src="assets/img/slide-2.png" alt="slide two" class="home__img">
+          </div>
 
-      <!--==================== RESERVATION ====================-->
-      <section class="reservation" id="reservation"></section>
 
-      <!--==================== GALLERY ====================-->
-      <section class="gallery"></section>
-    </main>
+          <div class="swiper-slide home__content grid">
+            <div class="home__data">
+              <h3 class="home__subtitle">Fastest Delivery & Easy Pickup</h3>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+              <h1 class="home__title">Food Platter</h1>
+              <p class="home__description">Good food starts with good ingridients. we only brings you the best.</p>
+              <a href="#menu" class="button">View Our Menu</a>
+            </div>
+            <img src="assets/img/slide-3.png" alt="slide one" class="home__img">
+          </div>
 
-    <!--========== SCROLL UP ==========-->
+          <div class="swiper-slide home__content grid">
+            <div class="home__data">
+              <h3 class="home__subtitle">Fastest Delivery & Easy Pickup</h3>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+              <h1 class="home__title">Garlic Pizza</h1>
+              <p class="home__description">Good food starts with good ingridients. we only brings you the best.</p>
+              <a href="#menu" class="button">View Our Menu</a>
+            </div>
+            <img src="assets/img/slide-4.png" alt="slide one" class="home__img">
+          </div>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
-  </body>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-line"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-line"></i>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about" id="about"></section>
+
+    <!--==================== MENU ====================-->
+    <section class="menu" id="menu"></section>
+
+    <!--==================== SERVICES ====================-->
+    <section class="services" id="services"></section>
+
+    <!--==================== DEALS ====================-->
+    <section class="deals"></section>
+
+    <!--==================== MENU ====================-->
+    <section class="menu"></section>
+
+    <!--==================== RESERVATION ====================-->
+    <section class="reservation" id="reservation"></section>
+
+    <!--==================== GALLERY ====================-->
+    <section class="gallery"></section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer"></footer>
+
+  <!--========== SCROLL UP ==========-->
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>

@@ -774,6 +774,72 @@ img {
   margin-bottom: 0.5rem;
 }
 /*=============== RESERVATION ===============*/
+.reservation .section__title {
+  max-width: 800px;
+  margin-bottom: 3rem;
+}
+
+.reservation__container {
+  grid-template-columns: 4fr 8fr;
+}
+
+.reservation__card {
+  display: flex;
+  align-items: center;
+  column-gap: 1.25rem;
+}
+
+.reservation__card:not(:last-child) {
+  margin-bottom: 2.25rem;
+}
+
+.reservation__icon {
+  width: 40px;
+}
+
+.reservation__icon-wrapper {
+  background-color: var(--first-color);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation__card-title {
+  color: var(--second-color);
+  font-style: var(--normal-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.reservation__card-data {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-size: var(--larger-font-size);
+  font-weight: var(--weight-400);
+}
+
+.reservation__form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+}
+
+.reservation__form-input {
+  margin-bottom: 1.5rem;
+}
+
+.reservation__form-input {
+  border: 3px solid hsl(0, 0%, 89%);
+  padding: 1.25rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.reservation__button {
+  margin-top: 1.25rem;
+}
 
 /*=============== GALLERY ===============*/
 

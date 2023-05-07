@@ -1,4 +1,13 @@
 /*=============== SHOW MENU ===============*/
+const navMenu = document.getElementById("nav-menu");
+const navToggle = document.getElementById("nav-toggle");
+const navClose = document.getElementById("nav-close");
+
+if (navToggle) {
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.add("show-menu");
+  });
+}
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -6,6 +15,11 @@
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 
+if (navClose) {
+  navClose.addEventListener("click", () => {
+    navMenu.classList.remove("show-menu");
+  });
+}
 /*=============== REMOVE MENU MOBILE ===============*/
 
 /*=============== HOME SWIPER ===============*/
@@ -43,15 +57,13 @@ tabs.forEach((tab) => {
 
 /*=============== SHOW SCROLL UP ===============*/
 function scrollUp() {
-  const scrollUp = document.getElementById('scroll-up')
+  const scrollUp = document.getElementById("scroll-up");
 
   if (this.scrollY >= 350) {
-    scrollUp.classList.add('show-scroll')
-  }else {
-    scrollUp.classList.remove('show-scroll')
-  } 
-    
-  
+    scrollUp.classList.add("show-scroll");
+  } else {
+    scrollUp.classList.remove("show-scroll");
+  }
 }
 
-window.addEventListener("scroll", scrollUp)
+window.addEventListener("scroll", scrollUp);
